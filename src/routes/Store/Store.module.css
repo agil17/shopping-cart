@@ -1,0 +1,59 @@
+.store_container {
+  height: 60%;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
+	gap: 8px;
+	padding: 16px;
+}
+
+.card_container {
+	background: lightgray;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	row-gap: 8px;
+	border-radius: 8px;
+	padding: 8px;
+}
+
+.card_title {
+	text-align: center;
+	height: 15%;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.card_img {
+	width: 60%;
+}
+
+.product_price {
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+.product_buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	column-gap: 4px;
+}
+
+.minus_button, .plus_button {
+	padding: 8px;
+	border: none;
+	border-radius: 8px;
+	background-color: rgb(218, 218, 17);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product_quantity {
+	text-align: center;
+	width: 40%;
+	padding: 8px 0;
+}
